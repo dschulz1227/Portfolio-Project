@@ -34,7 +34,7 @@ footer {
   .top-left {
     position: absolute;
     top: 22%;
-    left:35%;
+    left:30.5%;
   }
   
   /* Top right text */
@@ -60,15 +60,19 @@ footer {
   }
 
   h1 {
-      font-size: 40px;
+      font-size: 45px;
       color: black;
+      font-weight: lighter;
+      font-family: sans-serif;
+      
   }
       
   
-  .link-container {
+  .link-container-home {
     font-size: 25px;
     position: absolute;
-    top: 100%;
+    line-height:75px;
+    top: 75%;
     left: 50%;
     margin-top: 50%;
     transform: translate(-50%, -50%);
@@ -78,6 +82,33 @@ footer {
         max-width:150px;
         max-height: 150px;
       }
+  
+
+  .link-container-project {
+    font-size: 25px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
   }
 
-  
+
+  .link-container-aboutme {
+    font-size: 25px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+
+  .link-container-contact {
+    font-size: 25px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    margin-top: 50%;
+    transform: translate(-50%, -50%);
+  }
