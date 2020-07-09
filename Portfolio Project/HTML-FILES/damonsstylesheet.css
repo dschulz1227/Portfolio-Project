@@ -19,7 +19,7 @@ footer {
 
 
 /* Container holding the image and the text */
-.container {
+.my-container {
     position: relative;
     text-align: center;
     color: black;
