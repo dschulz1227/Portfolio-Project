@@ -142,3 +142,12 @@ footer {
 [class*="col-"]{
   border: 1px solid red;
 }
+
+body {
+  background-image: url("../../Portfolio-Images/small.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100%;
+  margin: 0px;
+  padding: 0px;
+}
