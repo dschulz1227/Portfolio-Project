@@ -64,11 +64,12 @@ footer {
   }
 
   h1 {
-      font-size: 45px;
+      font-size: 30px;
       color: black;
       font-weight: lighter;
       font-family: MyriadPro;
       line-height: regular;
+      
  
       
   }
@@ -84,10 +85,10 @@ footer {
     transform: translate(-50%, -50%);
   }
 
-  .image-size {
-        max-width:150px;
-        max-height: 150px;
-      }
+   .image-size {
+        max-width:200px;
+        max-height: 300px;
+      } 
   
 
   .link-container-project {
@@ -142,9 +143,9 @@ footer {
 }
 
 
-[class*="col"]{
+/* [class*="col"]{
   border: 1px solid red;
-}
+} */
 
 body {
   background: url("../../Portfolio-Images/small.jpeg") no-repeat center center fixed;
@@ -152,7 +153,50 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  color:rgb(243, 7, 7);
+  color:black;
   background-color:#333;
   font-family: MyriadPro;
+}
+
+
+.contact-font{
+  font-size: 20px;
+}
+
+h3{
+  font-size: 30px;
+  justify-content: space-evenly;
+}
+
+.arrow-size{
+  width: 120px;
+  height: 90px;
+  position: relative;
+  top: initial;
+}
+
+li{
+  font-size:20PX;
+  color: maroon;
+}
+
+.image-size-b{
+  width:130px;
+  height:200px;
+}
+
+
+.damon-size{
+  width:275px;
+  height:380px;
+}
+
+.image-size-a{
+  width: 160px;
+  height: 200px;
+}
+
+.image-size-p{
+  width: 340px;
+  height: 220px;
 }
