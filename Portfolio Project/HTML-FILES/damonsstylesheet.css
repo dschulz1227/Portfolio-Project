@@ -1,3 +1,5 @@
+@font-face { font-family: MyriadPro; src: url('MYRIADPRO-REGULAR.OTF'); }
+
 .container {
     display:flex;
     flex-direction: column;
@@ -64,7 +66,7 @@ footer {
       font-size: 45px;
       color: black;
       font-weight: lighter;
-      font-family: sans-serif;
+      font-family: MyriadPro;
       
   }
       
@@ -134,4 +136,9 @@ footer {
   top:30%;
   right:30%;
   position: absolute;
+}
+
+
+[class*="col-"]{
+  border: 1px solid red;
 }
